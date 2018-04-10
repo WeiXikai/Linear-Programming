@@ -1,5 +1,5 @@
 # Linear-Programming
-Using the Simplex Method to solve the Lineear Programming Problems
+Using the Simplex Method to solve the Linear Programming Problems
 
 This program is written for MATLAB.
 
