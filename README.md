@@ -51,3 +51,44 @@ ATTENTION
 
 Thank you and Best wishes.
 Hope this problem can help you.
+
+
+------------------------Update 2018.5.7---------------------------
+
+I have updated the file.
+First, the matlab program can support the judgement of "unbounded" and "Infeasible".
+
+Secondly, I add the cpp program for you all.
+
+In the cpp program, a file named "LPdata.txt" is needed.
+
+In this LPdata file,you should write in the following order:
+
+!)n m
+2)c
+3)A
+4)b
+5)BV
+6)NBV
+
+For example, we see the following problem.
+max 4x1+3x2+x3
+s.t. 2x1-x2-1x3=5
+     -4x1+3x2+x3=-1
+     x1 x2 x3>=0
+BV={2 3}
+NBV={1}
+
+In the file "LPdata.txt",you should write:
+3 2
+
+4 3 1
+
+2 -1 -1
+-4 3 1
+
+5
+-1
+
+2 3
+1
