@@ -19,6 +19,11 @@ while flag==0
     N
     cB
     cN
+    inverseB=B^(-1)
+    if rank(B)<m
+        fprintf("Infeasible");
+        return ;
+    end;
     xB=B^(-1)*b
     rN=cN'-cB'*B^(-1)*N
     flag=1;
@@ -48,6 +53,10 @@ while flag==0
                 LV=i;
             end
         end
+    end
+    if LV==0
+        fprintf("unbounded");
+        return ;
     end
     fprintf("Leaving Variable:");
     BV(LV)
