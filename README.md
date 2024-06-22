@@ -79,12 +79,12 @@ In the cpp program, a file named "LPdata.txt" is needed.
 
 In this LPdata file,you should write in the following order:
 
-1)n m
-2)c
-3)A
-4)b
-5)BV
-6)NBV
+1) n m
+2) c
+3) A
+4) b
+5) BV
+6) NBV
 
 For example, we see the following problem.
 ```
